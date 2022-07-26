@@ -56,7 +56,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
        break;
             default:
                 actions
-                        .andExpect(content().string(""));
+                        .andExpect(content().string("null"));
         }
 
     }
